@@ -40,3 +40,17 @@ dependencies {
     androidTestImplementation libs.androidx.junit
     androidTestImplementation libs.androidx.espresso.core
 }
+
+afterEvaluate {
+    publishing {
+        publications {
+            release(MavenPublication) {
+                from components.release
+
+                groupId = 'com.github.abdalla19977'
+                artifactId = 'telpo_printer'
+                version = '1.0'
+            }
+        }
+    }
+}
