@@ -1,6 +1,6 @@
 # TelpoDeviceHelper
 
-A comprehensive wrapper library for Telpo M8 device functionalities including printer, LCD screen, and cash drawer.
+Wrapper library for Telpo M8 device functionalities including printer, LCD screen, and cash drawer.
 
 ## Features
 
