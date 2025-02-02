@@ -1,3 +1,5 @@
+[![](https://jitpack.io/v/abdalla19977/TelpoLib.svg)](https://jitpack.io/#abdalla19977/TelpoLib)
+
 # TelpoDeviceHelper
 
 Wrapper library for Telpo M8 device functionalities including printer, LCD screen, and cash drawer.
@@ -19,7 +21,7 @@ Wrapper library for Telpo M8 device functionalities including printer, LCD scree
 Add the following dependency to your project:
 
 ```build.gradle(app)
-implementation 'com.github.aballa19977:TelpoLib:1.4'
+implementation 'com.github.aballa19977:TelpoLib:version'
 ```
 
 ```build.gradle(project)
