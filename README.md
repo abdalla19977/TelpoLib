@@ -66,18 +66,18 @@ device.openDrawer() // Opens cash drawer with automatic closure
 
 ### Main Methods
 
-| Method | Description |
-|--------|-------------|
-| `init(context: Context)` | Initializes all device components |
-| `printText(text: String, textSize: Int = 27, isBold: Boolean = false, isItalic: Boolean = false)` | Prints formatted text |
-| `printTable(texts: Array<String>, width: IntArray, align: IntArray, fontSize: Int)` | Prints formatted table |
-| `printBitmap(bitmap: Bitmap)` | Prints bitmap image |
-| `feedPaper(lines: Int)` | Controls paper feed |
-| `setAlign(align: Int)` | Sets text alignment |
-| `sendLcdDigital(bitmap: Bitmap)` | Controls LCD display |
-| `startPrinting()` | Executes print job |
-| `releasePrinter()` | Releases device resources |
-| `openDrawer()` | Controls cash drawer |
+| Method                                                                                            | Description                       |
+|---------------------------------------------------------------------------------------------------|-----------------------------------|
+| `init(context: Context)`                                                                          | Initializes all device components |
+| `printText(text: String, textSize: Int = 27, isBold: Boolean = false, isItalic: Boolean = false)` | Prints formatted text             |
+| `printTable(texts: Array<String>, width: IntArray, align: IntArray, fontSize: Int)`               | Prints formatted table            |
+| `printBitmap(bitmap: Bitmap)`                                                                     | Prints bitmap image               |
+| `feedPaper(lines: Int)`                                                                           | Controls paper feed               |
+| `setAlign(align: Int)`                                                                            | Sets text alignment               |
+| `sendLcdDigital(bitmap: Bitmap)`                                                                  | Controls LCD display              |
+| `startPrinting()`                                                                                 | Executes print job                |
+| `releasePrinter()`                                                                                | Releases device resources         |
+| `openDrawer()`                                                                                    | Controls cash drawer              |
 
 
 ## Contributing
