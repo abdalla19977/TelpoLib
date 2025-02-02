@@ -19,7 +19,7 @@ Wrapper library for Telpo M8 device functionalities including printer, LCD scree
 Add the following dependency to your project:
 
 ```build.gradle(app)
-implementation 'com.github.aballa19977:TelpoLib:1.3'
+implementation 'com.github.aballa19977:TelpoLib:1.4'
 ```
 
 ```build.gradle(project)
