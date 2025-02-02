@@ -7,7 +7,7 @@ import com.common.apiutil.moneybox.MoneyBox
 import com.common.apiutil.printer.UsbThermalPrinter
 import com.common.apiutil.util.SDKUtil
 
-class TelpoPrintHelper {
+class TelpoDeviceHelper {
 
     private lateinit var usbThermalPrinter: UsbThermalPrinter
     private lateinit var simpleSubLcd: SimpleSubLcd
